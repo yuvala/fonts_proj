@@ -1,2 +1,2 @@
-export var aaa = document.querySelector('.a');
-export var bbb = document.querySelector('.b');
+export const aaa = document.querySelector('.a');
+export const bbb = document.querySelector('.b');

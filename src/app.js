@@ -1,4 +1,6 @@
-import { aaa, bbb } from '../js/lib-loader';
+import  './scss/main.scss';
+import { aaa, bbb } from './js/lib-loader';
+ 
 
 var isShow = false;
 aaa.addEventListener('click', toggleYourself);
@@ -13,7 +15,7 @@ function toggleYourself(toggleWho) {
 }
 
 
-function updateAAA() {
+const  updateAAA = () => {
     if (isShow) {
         aaa.textContent = 'why why why';
     } else {
@@ -22,7 +24,7 @@ function updateAAA() {
 }
 
 
-function updateBBB() {
+const  updateBBB = () => {
     if (isShow) {
         bbb.textContent = 'whywhywhy';
     } else {
